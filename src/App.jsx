@@ -1,4 +1,5 @@
 import "./App.css";
+import { ArrayMethods } from "./components/ES6/ArrayMethods";
 import ArrowFucntions from "./components/ES6/ArrowFucntions";
 import Classes from "./components/ES6/Classes";
 import { Variables } from "./components/ES6/Variables";
@@ -11,6 +12,7 @@ function App() {
       <Classes/>
       <ArrowFucntions/>
       <Variables/>
+      <ArrayMethods/>
     </div>
   );
 }
