@@ -1,10 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Classes from "./components/ES6/Classes";
+import HelloWorld from "./components/HelloWorld";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, Sensei</h1>
+      <HelloWorld/>
+      <Classes/>
     </div>
   );
 }
