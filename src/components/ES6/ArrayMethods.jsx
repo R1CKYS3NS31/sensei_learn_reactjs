@@ -7,7 +7,7 @@ export const ArrayMethods = () => {
     <div>
       <h1>ArrayMethods</h1>
       {myArray.map((item) => (
-        <p key={item}>{item}</p>
+        <p key={item}>{item}</p> // key has to be unique
       ))}
     </div>
   );

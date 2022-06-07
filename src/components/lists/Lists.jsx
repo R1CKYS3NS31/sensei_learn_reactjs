@@ -9,7 +9,7 @@ export const Lists = () => {
       <h1>Lists</h1>
       <ul>
         {cars.map((car) => (
-          <Car key={car} brand={car} />
+          <Car key={car} brand={car} /> // key has to be unique like id
         ))}
       </ul>
     </div>
