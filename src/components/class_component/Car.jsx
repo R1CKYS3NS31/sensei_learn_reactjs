@@ -4,12 +4,12 @@ export class Car extends React.Component {
     super(props);
     // properties are put in this.state object
     this.state = {
-      color: "red",
+      f_color: "red",
     };
   }
   changeColor = () => {
     this.setState({
-      color: "purple",
+      f_color: "purple",
     });
   };
   render() {
@@ -17,7 +17,7 @@ export class Car extends React.Component {
       <div>
         <h1>Class Components</h1>
         <p>
-          Hi, I am a {this.state.color} {this.props.model} Car!
+          Hi, I am a {this.state.f_color} {this.props.model} Car!
         </p>
         {/* || */}
         <p>Hi, I am a {this.props.color} Car!</p>
