@@ -10,6 +10,7 @@ import { Variables } from "./components/ES6/Variables";
 import { Football } from "./components/events/Football";
 import { Carf } from "./components/function_components/Carf";
 import HelloWorld from "./components/HelloWorld";
+import { Goal } from "./components/operators/Goal";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       {/* props value */}
       <Carf color="blue" />
       <Football/>
+      <Goal isGoal={false}/>
     </div>
   );
 }
