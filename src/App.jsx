@@ -8,6 +8,7 @@ import { Modules } from "./components/ES6/Modules";
 import { SpreadOperator } from "./components/ES6/SpreadOperator";
 import { Variables } from "./components/ES6/Variables";
 import { Football } from "./components/events/Football";
+import { MyForm } from "./components/form/MyForm";
 import { Carf } from "./components/function_components/Carf";
 import HelloWorld from "./components/HelloWorld";
 import { Lists } from "./components/lists/Lists";
@@ -30,6 +31,7 @@ function App() {
       <Football/>
       <Goal isGoal={false}/>
       <Lists/>
+      <MyForm/>
     </div>
   );
 }
