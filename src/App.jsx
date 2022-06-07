@@ -22,7 +22,8 @@ function App() {
       <SpreadOperator/>
       <Modules/>
       <Car/>
-      <Carf/>
+      {/* props value */}
+      <Carf color = 'blue'/>
     </div>
   );
 }
