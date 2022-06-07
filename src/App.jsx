@@ -1,4 +1,5 @@
 import "./App.css";
+import { Car } from "./components/class_component/Car";
 import { ArrayMethods } from "./components/ES6/ArrayMethods";
 import ArrowFucntions from "./components/ES6/ArrowFucntions";
 import Classes from "./components/ES6/Classes";
@@ -19,6 +20,7 @@ function App() {
       {/* <Destructuring/> */}
       <SpreadOperator/>
       <Modules/>
+      <Car/>
     </div>
   );
 }
