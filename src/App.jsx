@@ -10,6 +10,7 @@ import { Variables } from "./components/ES6/Variables";
 import { Football } from "./components/events/Football";
 import { Carf } from "./components/function_components/Carf";
 import HelloWorld from "./components/HelloWorld";
+import { Lists } from "./components/lists/Lists";
 import { Goal } from "./components/operators/Goal";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Carf color="blue" />
       <Football/>
       <Goal isGoal={false}/>
+      <Lists/>
     </div>
   );
 }
