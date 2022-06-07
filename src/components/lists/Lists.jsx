@@ -8,9 +8,9 @@ export const Lists = () => {
     <div>
       <h1>Lists</h1>
       <ul>
-          {cars.map((car)=>{
-              <Car brand/>
-          })}
+        {cars.map((car) => (
+          <Car key={car} brand={car} />
+        ))}
       </ul>
     </div>
   );
