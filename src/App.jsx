@@ -7,6 +7,7 @@ import { Destructuring } from "./components/ES6/Destructuring";
 import { Modules } from "./components/ES6/Modules";
 import { SpreadOperator } from "./components/ES6/SpreadOperator";
 import { Variables } from "./components/ES6/Variables";
+import { Carf } from "./components/function_components/Carf";
 import HelloWorld from "./components/HelloWorld";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <SpreadOperator/>
       <Modules/>
       <Car/>
+      <Carf/>
     </div>
   );
 }

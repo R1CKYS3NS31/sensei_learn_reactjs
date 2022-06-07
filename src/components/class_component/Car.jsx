@@ -4,7 +4,7 @@ export class Car extends React.Component {
     return (
       <div>
         <h1>Class Components</h1>
-        <p>Hi, I am a Car</p>
+        <p>Hi, I am a Car!</p>
       </div>
     );
   }
