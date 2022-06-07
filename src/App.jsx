@@ -13,17 +13,17 @@ import HelloWorld from "./components/HelloWorld";
 function App() {
   return (
     <div className="App">
-      <HelloWorld/>
-      <Classes/>
-      <ArrowFucntions/>
-      <Variables/>
-      <ArrayMethods/>
+      <HelloWorld />
+      <Classes />
+      <ArrowFucntions />
+      <Variables />
+      <ArrayMethods />
       {/* <Destructuring/> */}
-      <SpreadOperator/>
-      <Modules/>
-      <Car/>
+      <SpreadOperator />
+      <Modules />
+      <Car color="green" model="mustang" />
       {/* props value */}
-      <Carf color = 'blue'/>
+      <Carf color="blue" />
     </div>
   );
 }
