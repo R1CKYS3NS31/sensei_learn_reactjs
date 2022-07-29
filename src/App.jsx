@@ -14,7 +14,8 @@ import { Carf } from "./components/function_components/Carf";
 import HelloWorld from "./components/HelloWorld";
 import { Lists } from "./components/lists/Lists";
 import { Goal } from "./components/operators/Goal";
-import { TextArea } from "./components/text_area/TextArea";
+import { TextArea } from "./components/form/TextArea";
+import { Select } from "./components/form/Select";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <MyForm/>
       <MultipleInputs/>
       <TextArea/>
+      <Select/>
     </div>
   );
 }
