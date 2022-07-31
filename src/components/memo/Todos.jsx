@@ -1,12 +1,14 @@
-import React from "react";
+import React, { memo } from "react";
 
-export const Todos = () => {
+const Todos = ({todos}) => {
   return (
     <>
       <h2>My Todos</h2>
-      {Todos.map((todo, index) => {
+      {todos.map((todo, index) => {
         return <p key={index}>{todo}</p>;
       })}
     </>
   );
 };
+
+export default memo(Todos)
