@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Todos } from './Todos'
+import  Todos  from './Todos'
 
 export const Memo = () => {
     const [count, setCount] = useState(0)
