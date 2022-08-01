@@ -1,7 +1,14 @@
-import React from 'react'
+import React from "react";
 
 export const Css = () => {
+  // js object for styling
+  const myStyle = {
+    padding: "10px",
+    fontFamily: "Sans-Serif",
+  };
   return (
-    <div>Css</div>
-  )
-}
+    <>
+      <h1 style={{ color: "green", backgroundColor: "black" }}>Hello Style!</h1>
+    </>
+  );
+};
