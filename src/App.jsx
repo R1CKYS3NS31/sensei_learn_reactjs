@@ -18,6 +18,7 @@ import { TextArea } from "./components/form/TextArea";
 import { Select } from "./components/form/Select";
 import { ReactRouterDom } from "./components/react_router_dom/ReactRouterDom";
 import { Memo } from "./components/memo/Memo";
+import { Css } from "./components/css/Css";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       <Select/>
       <ReactRouterDom/>
       <Memo/>
+      <Css/>
     </div>
   );
 }
