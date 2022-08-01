@@ -19,6 +19,7 @@ import { Select } from "./components/form/Select";
 import { ReactRouterDom } from "./components/react_router_dom/ReactRouterDom";
 import { Memo } from "./components/memo/Memo";
 import { Css } from "./components/css/Css";
+import { Sass } from "./components/sass/Sass";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
       <ReactRouterDom/>
       <Memo/>
       <Css/>
+      <Sass/>
     </div>
   );
 }
