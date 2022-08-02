@@ -11,7 +11,7 @@ export const ReactRouterDom = () => {
     <BrowserRouter>
       <Routes path="/" element={<Layout />}>
         {" "}
-        // ricky has a bug here
+        {/* // ricky has a bug here */}
         <Route
           index
           element={
