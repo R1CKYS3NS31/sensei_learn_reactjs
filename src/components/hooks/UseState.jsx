@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState } from "react"; // useState Hook allows us to track state in a function component.
 
 export const UseState = () => {
   const [color, setColor] = useState("green");

@@ -21,6 +21,7 @@ import { Memo } from "./components/memo/Memo";
 import { Css } from "./components/css/Css";
 import { Sass } from "./components/sass/Sass";
 import { UseState } from "./components/hooks/UseState";
+import { UseEffect } from "./components/hooks/UseEffect";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
       <Css/>
       <Sass/>
       <UseState/>
+      <UseEffect/>
     </div>
   );
 }
