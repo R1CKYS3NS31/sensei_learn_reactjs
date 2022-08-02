@@ -20,6 +20,7 @@ import { ReactRouterDom } from "./components/react_router_dom/ReactRouterDom";
 import { Memo } from "./components/memo/Memo";
 import { Css } from "./components/css/Css";
 import { Sass } from "./components/sass/Sass";
+import { UseState } from "./components/hooks/UseState";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
       <Memo/>
       <Css/>
       <Sass/>
+      <UseState/>
     </div>
   );
 }
