@@ -28,7 +28,7 @@ import { UseReducer } from "./components/hooks/UseReducer";
 import { WithoutUseCallback } from "./components/hooks/useCallback/WithoutUseCallback";
 import { UseCallback } from "./components/hooks/useCallback/UseCallback";
 import { UseMemo } from "./components/hooks/UseMemo";
-import { CustomHook } from "./components/hooks/CustomHook";
+import { CustomHook } from "./components/hooks/customHooks/CustomHook";
 
 function App() {
   return (
