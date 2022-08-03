@@ -23,6 +23,7 @@ import { Sass } from "./components/sass/Sass";
 import { UseState } from "./components/hooks/UseState";
 import { UseEffect } from "./components/hooks/UseEffect";
 import { UseContext } from "./components/hooks/UseContext";
+import { UseRef } from "./components/hooks/UseRef";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
       <UseState/>
       <UseEffect/>
       <UseContext/>
+      <UseRef/>
     </div>
   );
 }
