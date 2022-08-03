@@ -5,15 +5,14 @@ import { useState } from "react";
 // React Context is a way to manage state globally.
 // It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.
 
-const UserContext = createContext()
+const UserContext = createContext();
 
 export const UseContext = () => {
-
   const Component1 = () => {
     const [user, setUser] = useState("Jesse Hall");
 
     return (
-      <UserContext.Provider value = {user}>
+      <UserContext.Provider value={user}>
         <h1>{`Hello ${user}!`}</h1>
         <Component2 user={user} />
       </UserContext.Provider>
@@ -48,7 +47,7 @@ export const UseContext = () => {
   };
 
   const Component5 = () => {
-    const user = useContext(UserContext)
+    const user = useContext(UserContext);
 
     return (
       <>
