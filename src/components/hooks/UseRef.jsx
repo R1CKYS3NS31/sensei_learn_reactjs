@@ -15,9 +15,16 @@ export const UseRef = () => {
 
   // useRef to access DOM elements
   const inputElement = useRef();
-  const focusInout = () => {
+  const focusInput = () => {
     inputElement.current.focus();
   };
+
+//   Tracking state changes
+//   The useRef Hook can also be used to keep track of previous state values.
+const previousInputValue = useRef('')
+useEffect(()=>{
+    previousInputValue.current= inputValue // update useRef current value each time inputValue is updated at input
+},[inputValue])
 
   return (
     <>
@@ -27,8 +34,12 @@ export const UseRef = () => {
         onChange={(e) => setInputValue(e.target.value)}
       />
       <h3>Render Count: {count.current}</h3>
+      <h5>Current value: {inputValue}</h5>
+      <h5>Previous value:{previousInputValue.current}</h5>
+
+      {/* DOM element */}
       <input type="text" ref={inputElement}/>
-      <button onClick={focusInout}>Focus input</button>
+      <button onClick={focusInput}>Focus input</button>
     </>
   );
 };
