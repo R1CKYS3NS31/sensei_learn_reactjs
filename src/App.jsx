@@ -24,6 +24,7 @@ import { UseState } from "./components/hooks/UseState";
 import { UseEffect } from "./components/hooks/UseEffect";
 import { UseContext } from "./components/hooks/UseContext";
 import { UseRef } from "./components/hooks/UseRef";
+import { UseReducer } from "./components/hooks/UseReducer";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
       <UseEffect/>
       <UseContext/>
       <UseRef/>
+      <UseReducer/>
     </div>
   );
 }
