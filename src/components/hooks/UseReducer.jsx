@@ -28,6 +28,7 @@ const reducer = (state, action) => {
 };
 
 export const UseReducer = () => {
+  // useReducer(<reducer>, <initialState>) - returns current state and a dispatch
   const [todos, dispatch] = useReducer(reducer, initialTodos);
 
   const handleComplete = (todo) => {
@@ -35,7 +36,7 @@ export const UseReducer = () => {
   };
   return (
     <>
-      {todos.map((todo) => {
+      {todos.map((todo) => (
         <div key={todo.id}>
           <label htmlFor="todo">
             <input
@@ -43,9 +44,10 @@ export const UseReducer = () => {
               checked={todo.complete}
               onChange={() => handleComplete(todo)}
             />
+            {todo.title}
           </label>
-        </div>;
-      })}
+        </div>
+      ))}
     </>
   );
 };
