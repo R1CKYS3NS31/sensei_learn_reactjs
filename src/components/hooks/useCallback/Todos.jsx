@@ -1,7 +1,8 @@
 import React from "react";
+import { memo } from "react";
 
-export const Todos = () => {
-  alert("Child render");
+const Todos = ({todos,addTodo}) => {
+  console.log("Child render");
   return (
     <>
       <h2>My Todos</h2>
@@ -12,3 +13,5 @@ export const Todos = () => {
     </>
   );
 };
+
+export default memo(Todos)

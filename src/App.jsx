@@ -26,6 +26,7 @@ import { UseContext } from "./components/hooks/UseContext";
 import { UseRef } from "./components/hooks/UseRef";
 import { UseReducer } from "./components/hooks/UseReducer";
 import { WithoutUseCallback } from "./components/hooks/useCallback/WithoutUseCallback";
+import { UseCallback } from "./components/hooks/useCallback/UseCallback";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
       <UseRef/>
       <UseReducer/>
       <WithoutUseCallback/>
+      <UseCallback/>
     </div>
   );
 }
